@@ -2,7 +2,7 @@
 
 **Opis**
 
-Program pridobi podatke o sahistih iz spletne strani fide. Zajame informacijo o imenu in priimku sahista, drzavi, letnici rojstva, spolu, FIDE nazivu in vseh treh rangih. Program ustvari seznam sahistov, ki vsebuje te informacije in ga uredi glede na padajoci standardni rang. Izracunajo in izpisejo se tudi povprecen standardni, pospeseni in hitropotezni rang. Informacije so prikazane  tudi s tremi histograme, ki prikazejo razpored igralcev po vseh treh fide rangih. Prikaze tudi raztreseni diagram korelacije med standardnim rangom in letnico rojstva.
+Program pridobi podatke o sahistih iz spletne strani fide. Zajame informacijo o imenu in priimku sahista, drzavi, letnici rojstva, spolu, FIDE nazivu in vseh treh rangih. Program ustvari seznam sahistov, ki vsebuje te informacije in ga uredi glede na padajoci standardni rang. Izracunajo in izpisejo se tudi povprecen standardni, pospeseni in hitropotezni rang. Informacije so prikazane  tudi s tremi histogrami, ki prikazejo razpored igralcev po vseh treh fide rangih. Prikaze tudi raztreseni diagram korelacije med standardnim rangom in letnico rojstva.
 
 **Izvedba**
 
