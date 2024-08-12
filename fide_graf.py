@@ -40,7 +40,7 @@ def graf(datoteka):
 
    sp = min(urejen_seznam)
    zg = max(urejen_seznam)
-
+    
    spp = min(urejen_seznamp)
    zgp = max(urejen_seznamp)
 
@@ -57,14 +57,14 @@ def graf(datoteka):
    plt.title("Porazdelitev pospesenih rangov")
    plt.xlabel("Rang")
    plt.ylabel("Stevilo igralcev")
-   plt.hist(urejen_seznam, bins = N, color = 'skyblue', edgecolor = 'black')
+   plt.hist(urejen_seznamp, bins = N, color = 'skyblue', edgecolor = 'black')
    plt.xticks(np.arange(spp, zgp + 1, int((zgp - spp) / N)))
    plt.show()
 
    plt.title("Porazdelitev hitropoteznih rangov")
    plt.xlabel("Rang")
    plt.ylabel("Stevilo igralcev")
-   plt.hist(urejen_seznam, bins = N, color = 'skyblue', edgecolor = 'black')
+   plt.hist(urejen_seznamh, bins = N, color = 'skyblue', edgecolor = 'black')
    plt.xticks(np.arange(sph, zgh + 1, int((zgh - sph) / N)))
    plt.show()
 
@@ -72,4 +72,4 @@ def graf(datoteka):
    plt.xlabel("Letnica rojstva")
    plt.ylabel("Rang")
    plt.scatter(letnice, seznam)
-   plt.show()
+   plt.show() 
